@@ -103,7 +103,7 @@ function myFunction() {
 
 let map;
 function initMap() {
-    let icon = `../img/scroll.png`;
+    let icon = `../img/marker.png`;
     let dote = { lat: 51.495866, lng: 31.2204984 };
     map = new google.maps.Map(document.getElementById('map'), {
         center: { lat: 50.4077768, lng: 30.2968571 },
